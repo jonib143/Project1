@@ -174,13 +174,11 @@ namespace Project1 {
 		}
 #pragma endregion
 	private: System::Void additional_Click(System::Object^ sender, System::EventArgs^ e) {
-		if (input1 == ) {
-			result->Text = "PUt input first";
-		}else{
+		
 		int output = System::Convert::ToInt16(input1->Text) + System::Convert::ToInt16(input2->Text);
 
 		result->Text = System::Convert::ToString(output);
-		}
+	
 	}
 	private: System::Void minus_Click(System::Object^ sender, System::EventArgs^ e) {
 		int output = System::Convert::ToInt16(input1->Text) - System::Convert::ToInt16(input2->Text);

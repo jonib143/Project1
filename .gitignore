@@ -1,0 +1,23 @@
+Ignore Visual Studio temporary files, build results, and
+user-specific files
+.vs/
+*.user
+*.suo
+*.pdb
+*.obj
+*.exe
+*.dll
+*.idb
+*.class
+*.log
+*.tmp
+*.cache
+*.csproj.user
+*.dbmdl
+*.jfm
+
+Ignore macOS system files
+.DS_Store
+
+Ignore Windows system files
+Thumbs.db
